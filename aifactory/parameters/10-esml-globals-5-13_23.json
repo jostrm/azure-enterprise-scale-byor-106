@@ -1,0 +1,9 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "databricksOID": {
+            "value": "6f63d607-fdce-426d-8f92-1235074fbeac"
+        }
+    }
+}
