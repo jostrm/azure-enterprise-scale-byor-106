@@ -1,0 +1,66 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "enablePublicGenAIAccess": {
+            "value": true
+        },
+        "allowPublicAccessWhenBehindVnet": {
+            "value": true
+        },
+        "enablePublicAccessWithPerimeter": {
+            "value": false
+        },
+        "serviceSettingDeployFunction": {
+            "value": false
+        },
+        "serviceSettingDeployWebApp": {
+            "value": false
+        },
+        "serviceSettingDeployContainerApps": {
+            "value": false
+        },
+        "serviceSettingDeployAppInsightsDashboard": {
+            "value": false
+        },
+        "serviceSettingDeployBingSearch": {
+            "value": false
+        },
+        "serviceSettingDeployCosmosDB": {
+            "value": false
+        },
+        "serviceSettingDeployAzureOpenAI": {
+            "value": true
+        },
+        "serviceSettingDeployAzureAIVision": {
+            "value": false
+        },
+        "serviceSettingDeployAzureSpeech":{ 
+            "value": false
+        },
+        "serviceSettingDeployAIDocIntelligence":{ 
+            "value": false
+        },
+        "aiSearchEnableSharedPrivateLink_DOCS":{ 
+            "value": "SharedPrivateLinks for Azure AI Search requires SKU standard2 or higher, you many need to apply for that. Alternative: In Azure Portal, AISearch, click Allow Azure services checkbox and do not created SharedPrivateLinks"
+        },
+        "aiSearchEnableSharedPrivateLink":{ 
+            "value": false
+        },
+        "modelGPT4Version": {
+            "value": ""
+        },
+        "serviceSettingOverrideRegionAzureAISearch": {
+            "value": ""
+        },
+        "serviceSettingOverrideRegionAzureAISearchShort": {
+            "value": ""
+        },
+        "serviceSettingOverrideRegionAzureAIVision": {
+            "value": ""
+        },
+        "serviceSettingOverrideRegionAzureAIVisionShort": {
+            "value": ""
+        }
+    }
+}
